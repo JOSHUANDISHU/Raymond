@@ -114,7 +114,7 @@ async(Void, citel, text,{ isCreator }) => {
  cmd({
              pattern: "steal",
              desc: "Makes sticker of replied image/video.",
-             category: "sticker",
+             category: "owner",
              filename: __filename,
          },
          async(Void, citel, text) => {
