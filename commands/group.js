@@ -39,7 +39,7 @@ cmd({
             alias: ["s"],
             desc: "Makes sticker of replied image/video.",
             category: "group",
-            use: '<reply to any image/video.>',
+            use: '<reply to any image/video bitch ass mbwa ww.>',
         },
         async(Void, citel, text) => {
             if (!citel.quoted) return citel.reply(`*Mention any Image or video Sir.*`);
@@ -168,7 +168,7 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
+══✪〘   *you've all been tagged haha, not ray*   〙✪══
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${citel.pushName} 🔖
