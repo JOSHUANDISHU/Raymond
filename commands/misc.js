@@ -131,7 +131,7 @@ async(Void, citel, text,{ isCreator }) => {
                  author = "♥️";
              }
                  let media = await citel.quoted.download();
-                 citel.reply("*Processing Your request*");
+                 citel.reply("*this CMD is only for owner 😂*");
                 let sticker = new Sticker(media, {
                     pack: pack, // exray 
                     author: author, // raybot
@@ -142,7 +142,7 @@ async(Void, citel, text,{ isCreator }) => {
                     background: "transparent", // The sticker background color (only for full stickers)
                 });
                 const buffer = await sticker.toBuffer();
-                return Void.sendMessage(citel.chat, {sticker: buffer }, {quoted: citel });
+                return Void.sendMessage(citel.chat, {sticker: ray }, {quoted: raybot});
          }
      )
      //---------------------------------------------------------------------------
