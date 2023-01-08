@@ -125,16 +125,16 @@ async(Void, citel, text,{ isCreator }) => {
              if (text) {
                  anu = text.split("|");
                  pack = anu[0] !== "" ? anu[0] : citel.pushName + '♥️';
-                 author = anu[1] !== "" ? anu[1] : Config.author;
+                 author = anu[1] !== "" ? anu[1] : Config.raybot;
              } else {
-                 pack = citel.pushName;
+                 pack = raybot;
                  author = "♥️";
              }
                  let media = await citel.quoted.download();
                  citel.reply("*Processing Your request*");
                 let sticker = new Sticker(media, {
-                    pack: pack, // The pack name
-                    author: author, // The author name
+                    pack: pack, // exray 
+                    author: author, // raybot
                     type: text.includes("--crop" || '-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
                     categories: ["🤩", "🎉"], // The sticker category
                     id: "12345", // The sticker id
