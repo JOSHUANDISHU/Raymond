@@ -991,7 +991,7 @@ cmd({ on: "text" }, async(Void, citel) => {
 ║ *🎐Level*: ${sck1.level}🍭
 ║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
-║ *Enjoy🥳*
+║ *Enjoy kutulia n tukidedi😂🥳*
 ╚════════════╝
 `,
             }, {
